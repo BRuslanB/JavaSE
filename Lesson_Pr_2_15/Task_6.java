@@ -1,25 +1,17 @@
-package Lesson_Dz_1_17;
-
+/*
+Напишите программу, где я ввожу целые числа a и b, если их значения не равны, то выводить в консоль их сумму, иначе просто 0.
+*/
 import java.util.Scanner;
-public class Task_6 {
+public class Main{
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        int[] mas = new int[n];
-        for (int i=0;i<n; i++) {
-            mas[i] = in.nextInt();
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
+        if (a+b>c && a+c>b && b+c>a) {
+            System.out.println("YES");
+        }else{
+            System.out.println("NO");
         }
-        min_max_mas(mas);
-    }
-    public static void min_max_mas(int[] mas1){
-        int min=mas1[0];
-        int max=mas1[0];
-        for (int i=0; i<mas1.length;i++) {
-            if (mas1[i] > max)
-                max = mas1[i];
-            if (mas1[i] < min)
-                min = mas1[i];
-        }
-        System.out.print(min+"\n"+max);
     }
 }
