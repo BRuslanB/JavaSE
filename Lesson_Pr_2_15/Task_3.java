@@ -1,18 +1,15 @@
-package Lesson_Dz_1_17;
-
+/*
+Создайте программу, которая принимает c консоли цифру от 1 до 5 включительно, далее программа должна вывести ONE - если ввели 1, TWO - если ввели 2, THREE - если ввели 3 … итд.
+*/
 import java.util.Scanner;
-public class Task_3 {
+public class Main{
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        String s = in.nextLine();
-        System.out.println(count_letter(s));
-    }
-    public static int count_letter(String s1){
-        int sum=0;
-        s1=s1.toLowerCase();
-        for (int i=0; i<s1.length(); i++)
-            if (s1.charAt(i)=='a'||s1.charAt(i)=='e'||s1.charAt(i)=='i'||s1.charAt(i)=='o'||s1.charAt(i)=='u')
-                sum++;
-        return sum;
+        int n = in.nextInt();
+        if (n%2 == 0) {
+            System.out.println("EVEN");
+        }else{
+            System.out.println("ODD");
+        }
     }
 }
