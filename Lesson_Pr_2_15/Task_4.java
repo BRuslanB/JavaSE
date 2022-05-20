@@ -1,21 +1,17 @@
-package Lesson_Dz_1_17;
-
+/*
+Напишите программу, где ввожу два целых числа. Если первое число больше второго на 10, то выведите YES, иначе NO.
+*/
 import java.util.Scanner;
-public class Task_4 {
+public class Main{
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        int[] mas = new int[n];
-        for (int i=0;i<n; i++) {
-            mas[i] = in.nextInt();
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
+        if (a==b && a==c) {
+            System.out.println("YES");
+        }else{
+            System.out.println("NO");
         }
-        System.out.println(sum_not_zero(mas));
-    }
-    public static int sum_not_zero(int[] mas1){
-        int sum=0;
-        for (int i=0; i<mas1.length;i++)
-            if (mas1[i]!=0)
-                sum++;
-        return sum;
     }
 }
