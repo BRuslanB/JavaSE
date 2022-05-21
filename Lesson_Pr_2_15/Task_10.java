@@ -1,6 +1,4 @@
-/*
-Напишите программу, где я ввожу три числа. Если все числа одинаковые, то выведите YES, иначе NO.
-*/
+/* */
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
