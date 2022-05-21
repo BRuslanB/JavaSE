@@ -1,6 +1,4 @@
-/*
-Создайте программу, которая выводит в консоль YES, если введенное целое число является положительным и четным, иначе NO.
-*/
+/* */
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
