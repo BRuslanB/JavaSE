@@ -1,6 +1,4 @@
-/*
-Напишите программу, где ввожу целое число n, и если оно четное, программа выведет EVEN иначе ODD.
-*/
+/* */
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
