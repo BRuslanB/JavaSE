@@ -1,6 +1,3 @@
-/*
-Напишите программу, где ввожу два целых числа. Если первое число больше второго на 10, то выведите YES, иначе NO.
-*/
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){

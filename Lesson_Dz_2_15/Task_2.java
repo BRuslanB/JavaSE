@@ -1,16 +1,30 @@
-package Lesson_Dz_1_17;
-
 import java.util.Scanner;
-public class Task_2 {
+public class Main{
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        String s = in.next();
-        System.out.println(double_letter(s));
-    }
-    public static String double_letter(String s1){
-        String s2="";
-        for (int i=0; i<s1.length(); i++)
-            s2=s2+ Character.toString(s1.charAt(i))+Character.toString(s1.charAt(i));
-        return s2;
+        int a = in.nextInt();
+        switch (a) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+        }
     }
 }

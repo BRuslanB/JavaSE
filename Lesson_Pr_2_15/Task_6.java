@@ -1,6 +1,3 @@
-/*
-Напишите программу, где я ввожу целые числа a и b, если их значения не равны, то выводить в консоль их сумму, иначе просто 0.
-*/
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
